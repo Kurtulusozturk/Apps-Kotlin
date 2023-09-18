@@ -1,0 +1,10 @@
+           //Download image from url         
+                    val request = DownloadManager.Request(Uri.parse(image))
+                    //.setTitle("image")
+                        .setDescription("Downloading...")
+                        .setDestinationInExternalPublicDir(DIRECTORY_DOWNLOADS, "image")
+                    //.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
+                    val dm = activity?.getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
+                    dm.enqueue(request)
+                    Toast.makeText(context,"İndirilenler klosörünü kontrol ediniz...",Toast.LENGTH_LONG).show()
+

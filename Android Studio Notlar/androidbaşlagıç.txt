@@ -1,0 +1,6 @@
+1.7.10
+id 'kotlin-android-extensions'
+
+view binding hatası çözümü 
+implementation 'com.android.databinding:viewbinding:4.0.1'
+to the build.gradle file.

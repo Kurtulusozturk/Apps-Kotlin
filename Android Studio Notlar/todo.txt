@@ -1,0 +1,4 @@
+düdük sesi ekran kapalı iken çalışmıyor
+uygulama içinde int kapalı halde reload basılırsa yenileme işlemi başarılı diyor
+bildirim servisinde oreo altına destek yok 
+uygulamada konumu kapattığın zaman listener da patlıyor
